@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define 个数 1000
+#define 个数 10000
 
 int main() {
     int a[个数]={0};
@@ -16,9 +16,11 @@ int main() {
        }
     }
     for (int i = 0; i < 个数; ++i) {
-        if(a[i]!=0)
+
+        if(i % 10 == 0)
         {
             printf("%d ",a[i]);
+            printf("\n");
         }
 
 
