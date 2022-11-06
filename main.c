@@ -2,9 +2,9 @@
 #define 个数 100
 
 int main() {
-    int a[个数]={0};
+    int a[个数];
     for (int i = 1; i < 个数; ++i) {
-        a[i]=i+1;
+        i=i+1;
         for (int j = 2; j <= i; ++j) {
             if(a[i]%j==0)
             {
